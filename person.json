@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "age": 28,
+        "eyeColor": "blue",
+        "name": "Timothy Ronald"
+    },
+    {
+        "id": 2,
+        "age": 30,
+        "eyeColor": "green",
+        "name": "Carney Hoffman"
+    },
+    {
+        "id": 3,
+        "age": 40,
+        "eyeColor": "brown",
+        "name": "Bond Dean"
+    },
+    {
+        "id": 4,
+        "age": 21,
+        "eyeColor": "brown",
+        "name": "Dickerson Fox"
+    },
+    {
+        "id": 5,
+        "age": 35,
+        "eyeColor": "blue",
+        "name": "Richmond Byers"
+    }
+]
