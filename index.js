@@ -22,7 +22,7 @@ app.post('/', (req, res) => {
 })
 
 app.get('/person', (req, res) => {
-    req.status(200).json({
+    res.status(200).json({
         status: 'success',
         data: {
             persons: persons
@@ -168,6 +168,11 @@ app.post('/person', (req, res) => {
         res.status(400).json({
             status: 'failed',
             message: 'Data belum lengkap, silakan lengkapi data Anda'
+        })
+    } else if (req.body.eyeColor !== 'green' || req.body.eyeColor !== 'blue') {
+        res.status(400).json({
+            status: 'failed',
+            message: 'Eyecolor tidak bisa selain green atau blue'
         })
     }
     else {
